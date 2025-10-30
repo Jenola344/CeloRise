@@ -1,3 +1,46 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero",
+      "description": "A vibrant community working together on a sustainable project",
+      "imageUrl": "https://images.unsplash.com/photo-1678203434634-d9224b9edb7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjb21tdW5pdHklMjBzdXN0YWluYWJsZXxlbnwwfHx8fDE3NjE3ODc4Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "community sustainable"
+    },
+    {
+      "id": "green-energy",
+      "description": "Solar panels in a rural village setting",
+      "imageUrl": "https://images.unsplash.com/photo-1660330589257-813305a4a383?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzb2xhciUyMHBhbmVsc3xlbnwwfHx8fDE3NjE3ODc4Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "solar panels"
+    },
+    {
+      "id": "telemedicine",
+      "description": "A doctor consulting with a patient via a smartphone",
+      "imageUrl": "https://images.unsplash.com/photo-1584516150909-c43483ee7932?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZG9jdG9yJTIwcGF0aWVudHxlbnwwfHx8fDE3NjE3ODI1NzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "doctor patient"
+    },
+    {
+      "id": "digital-learning",
+      "description": "Students in Africa using tablets for learning",
+      "imageUrl": "https://images.unsplash.com/photo-1621910226772-771f03fb0d9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjaGlsZHJlbiUyMGxlYXJuaW5nfGVufDB8fHx8MTc2MTczODkyMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "children learning"
+    },
+    {
+      "id": "micro-finance",
+      "description": "A small business owner proudly standing in their shop",
+      "imageUrl": "https://images.unsplash.com/photo-1449247666642-264389f5f5b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzbWFsbCUyMGJ1c2luZXNzfGVufDB8fHx8MTc2MTcwMzgwNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "small business"
+    },
+    {
+      "id": "clean-water",
+      "description": "A community member getting clean water from a well",
+      "imageUrl": "https://images.unsplash.com/photo-1546531130-0f36255d9d49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjbGVhbiUyMHdhdGVyfGVufDB8fHx8MTc2MTc3ODk4OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "clean water"
+    },
+    {
+      "id": "coding-bootcamp",
+      "description": "A diverse group of people learning to code on laptops",
+      "imageUrl": "https://images.unsplash.com/photo-1569098644581-b97f9c091fa8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwZW9wbGUlMjBjb2Rpbmd8ZW58MHx8fHwxNzYxNzg3ODM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "people coding"
+    }
+  ]
 }
