@@ -1,6 +1,4 @@
-import { Button } from "@/components/ui/button";
 import { CeloRiseLogo } from "@/components/icons";
-import { Wallet } from 'lucide-react';
 
 export function Header() {
   return (
@@ -15,10 +13,7 @@ export function Header() {
           <a href="#" className="text-muted-foreground transition-colors hover:text-foreground">About</a>
           <a href="#" className="text-muted-foreground transition-colors hover:text-foreground">Docs</a>
         </nav>
-        <Button>
-          <Wallet className="mr-2 h-4 w-4" />
-          Connect Wallet
-        </Button>
+        <w3m-button />
       </div>
     </header>
   );
