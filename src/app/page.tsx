@@ -18,7 +18,7 @@ export default function Home() {
         <section className="relative w-full py-20 md:py-32 lg:py-40 bg-card overflow-hidden">
           <div className="container mx-auto px-4 md:px-6 z-10 relative">
             <div className="grid md:grid-cols-2 gap-8 items-center">
-              <div className="space-y-6 text-center md:text-left">
+              <div className="space-y-6 text-center md:text-left animate-fade-in-up">
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-headline font-bold tracking-tighter">
                   Invest in Impact,
                   <br />
@@ -37,7 +37,7 @@ export default function Home() {
                   </Button>
                 </div>
               </div>
-              <div className="relative h-64 md:h-auto">
+              <div className="relative h-64 md:h-auto animate-fade-in">
                 {heroImage && (
                   <Image
                     src={heroImage.imageUrl}
@@ -55,7 +55,7 @@ export default function Home() {
 
         <section id="projects" className="py-16 md:py-24">
           <div className="container mx-auto px-4 md:px-6">
-            <div className="text-center space-y-4 mb-12">
+            <div className="text-center space-y-4 mb-12 animate-fade-in-up">
               <h2 className="text-3xl md:text-4xl font-headline font-bold">
                 Impact Projects
               </h2>
@@ -64,7 +64,7 @@ export default function Home() {
               </p>
             </div>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-              {projects.map((project) => (
+              {projects.map((project, i) => (
                 <ProjectCard key={project.id} project={project} />
               ))}
             </div>
@@ -74,7 +74,7 @@ export default function Home() {
         <section id="distribute-rewards" className="py-16 md:py-24 bg-card">
           <div className="container mx-auto px-4 md:px-6">
             <div className="grid md:grid-cols-2 gap-12 items-center">
-              <div className="space-y-4">
+              <div className="space-y-4 animate-fade-in-up">
                  <div className="inline-block bg-primary/10 text-primary p-3 rounded-full">
                     <Leaf className="w-8 h-8" />
                  </div>
@@ -83,7 +83,9 @@ export default function Home() {
                    Our AI-powered system analyzes project performance to ensure rewards are distributed fairly and effectively, maximizing the impact of your staked assets. Enter the total rewards to begin.
                  </p>
               </div>
-               <RewardDistributionForm projects={projects} />
+               <div className="animate-fade-in">
+                <RewardDistributionForm projects={projects} />
+               </div>
             </div>
           </div>
         </section>

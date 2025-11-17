@@ -13,7 +13,7 @@ type ProjectCardProps = {
 export function ProjectCard({ project }: ProjectCardProps) {
   const image = PlaceHolderImages.find((img) => img.id === project.imageId);
   return (
-    <Card className="flex flex-col h-full overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+    <Card className="flex flex-col h-full overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1 animate-fade-in-up">
       {image && (
         <div className="relative h-48 w-full">
           <Image
